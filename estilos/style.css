@@ -2,7 +2,8 @@
 
 /* 
     Paleta de cores -->
-    Laranja: #fba752
+    Laranja: #ff5900
+    Laranja para seleção: #CF4D26
     Cinza: #222d43
     Preto para degradê: #0d1118
 */
@@ -10,6 +11,8 @@
 :root{
     --cor1: #222d43;
     --cor2: #0d1118;
+    --cor3: #DE6B48;
+    --cor4: #CF4D26;
 }
 
 *{
@@ -70,3 +73,50 @@ div#formulario > h1{
     margin-bottom: 10px;
 }
 
+form > div.input{
+    background-color: var(--cor3);
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: white;
+}
+
+form input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: var(--cor3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover{
+    background-color: var(--cor4);
+}
+
+form a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid var(--cor3);
+    border-radius: 5px;
+    color: var(--cor3);
+}
+
+form a:hover{
+    background-color: var(--cor4);
+    color: white;
+}
+
+::selection{
+    background-color: var(--cor4);
+    color: white;
+}
