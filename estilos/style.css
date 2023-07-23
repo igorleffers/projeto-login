@@ -23,7 +23,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    background-color: var(--cor1);
     width: 100vw;
     height: 100vh;
 }
@@ -97,7 +97,7 @@ div.input > input{
 
     /* posicionamento */
     width: calc(100% - 52px);
-    transform: translateY(-10px);
+    transform: translateY(-10.3px);
 }
 
 div.input > input:focus-within{
