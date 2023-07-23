@@ -75,7 +75,7 @@ div#formulario > h1{
 
 form > div.input{
     background-color: var(--cor3);
-    height: 40px;
+    height: 38px;
     border-radius: 5px;
     margin: 10px 0px;
     color: white;
@@ -97,7 +97,7 @@ div.input > input{
 
     /* posicionamento */
     width: calc(100% - 52px);
-    transform: translateY(-10.3px);
+    transform: translateY(-11.5px);
 }
 
 div.input > input:focus-within{
