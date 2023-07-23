@@ -27,14 +27,14 @@
     }
 
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
         background-size: cover;
     }
 
     div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
 }
